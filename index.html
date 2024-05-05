@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+      <div data-role="header">
+        <h1>Food Delights</h1>
+      </div>
+      <div data-role="content">
+        <h2>Welcome to Food Delights!</h2>
+        <p>Discover delicious recipes and cooking tips.</p>
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#recipes" data-transition="slide">Recipes</a></li>
+          <li><a href="#tips" data-transition="slide">Cooking Tips</a></li>
+          <li><a href="#contact" data-transition="slide">Contact Us</a></li>
+        </ul>
+      </div>
+      <div data-role="footer">
+        <h4>© 2024 Food Delights</h4>
+      </div>
+    </div>
+    <div data-role="page" id="recipes">
+      <div data-role="header">
+        <h1>Recipes</h1>
+      </div>
+      <div data-role="content">
+        <h2>Discover Delicious Recipes</h2>
+        <p>Explore our collection of mouth-watering recipes.</p>
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#">Recipe 1</a></li>
+          <li><a href="#">Recipe 2</a></li>
+          <li><a href="#">Recipe 3</a></li>
+        </ul>
+      </div>
+      <div data-role="footer">
+        <h4>© 2024 Food Delights</h4>
+      </div>
+    </div>
+    <div data-role="page" id="tips">
+      <div data-role="header">
+        <h1>Cooking Tips</h1>
+      </div>
+
+      <div data-role="content">
+        <h2>Get Cooking Tips</h2>
+        <p>Enhance your culinary skills with our helpful cooking tips.</p>
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#">Tip 1</a></li>
+          <li><a href="#">Tip 2</a></li>
+          <li><a href="#">Tip 3</a></li>
+        </ul>
+      </div>
+      <div data-role="footer">
+        <h4>© 2024 Food Delights</h4>
+      </div>
+    </div>
+    <div data-role="page" id="contact">
+      <div data-role="header">
+        <h1>Contact Us</h1>
+      </div>
+      <div data-role="content">
+        <h2>Get in Touch</h2>
+        <p>Have questions or feedback? Contact us!</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message"></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+      <div data-role="footer">
+        <h4>© 2024 Food Delights</h4>
+      </div>
+    </div>
+</body>
+</html>
